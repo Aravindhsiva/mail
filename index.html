@@ -1,0 +1,76 @@
+<html>
+    <title>Mail Form</title>
+    <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+               <link rel="icon" href="logo.png" type="image/png"/>       
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    </head>
+    <style>
+        *{
+            font-family: 'Comfortaa', cursive;
+        }
+        body{
+             background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0,0.7)),
+                rgba(0,0,0,1) url("https://raw.githubusercontent.com/Aravindhsiva/mail/master/assests/back.jpg") no-repeat center;
+            background-size: cover;
+        }
+        .container{
+            text-align: center;
+            background-color: white;
+            width:25%;
+            border: 5px solid black;
+        }
+        input[type="text"]{
+            border:1px solid black;
+            padding: 1%;
+        }
+        input[type="submit"]{
+            background-color:#009a9a;
+            color: black;
+            font-size: 20px;
+            border: none;
+        }
+        input[type="submit"]:hover{
+            background-color: black;
+            color: white;
+            transition-duration: 0.7s;
+        }
+        .container-fluid{
+            background-color: black;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+<body background="back">
+    <div class="container text-center" style="margin-top: 2%;">
+<form action="contact.php" method="post">
+    <br>
+         <h1>Mail Form</h1>
+<hr>
+        <b><p>Your Name:</p></b>
+         <input type="text" name="yourname" placeholder="Your Name">
+<b><p>Subject:</p></b> <input type="text" name="subject" placeholder="Message">
+<b><p>Email:</p></b> <input type="text" name="email" placeholder="Mail Id">
+<b><p>Message:</p></b>
+      <textarea class="form-control" rows="3"></textarea>
+    <br>
+<p><input type="submit" value="Send it!"></p>
+</form>
+    </div>
+    <br>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <a href="https://aravindhsiva.github.io/page.html" target="_blank"><h1>Designed by Aravindh.S</h1></a>
+    </div>
+</div>
+</div>
+</body>
+</html>
